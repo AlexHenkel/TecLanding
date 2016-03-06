@@ -83,7 +83,7 @@ html.js,
 
 .link:hover,
 .link:focus {
-	color: $main-color-1;
+	color: $contrast-color;
 }
 
 .link--page {
@@ -99,7 +99,7 @@ html.js,
 	width: 30px;
 	height: 2px;
 	margin: 5px 0 0 -15px;
-	background: $main-color-1;
+	background: $contrast-color;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform: scale3d(0, 1, 1);

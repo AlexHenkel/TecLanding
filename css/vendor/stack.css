@@ -1,5 +1,5 @@
 /*
-Error: Undefined variable: "$main-color-1".
+Error: Undefined variable: "$contrast-color".
         on line 86 of /Users/alex/Documents/TecLanding/styles/vendor/stack.scss
 
 81: 	text-transform: uppercase;
@@ -7,7 +7,7 @@ Error: Undefined variable: "$main-color-1".
 83: 
 84: .link:hover,
 85: .link:focus {
-86: 	color: $main-color-1;
+86: 	color: $contrast-color;
 87: }
 88: 
 89: .link--page {
@@ -70,4 +70,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$main-color-1\".\A         on line 86 of /Users/alex/Documents/TecLanding/styles/vendor/stack.scss\A \A 81: 	text-transform: uppercase;\A 82: }\A 83: \A 84: .link:hover,\A 85: .link:focus {\A 86: 	color: $main-color-1;\A 87: }\A 88: \A 89: .link--page {\A 90: 	display: block;\A 91: 	color: $main-color-2;"; }
+  content: "Error: Undefined variable: \"$contrast-color\".\A         on line 86 of /Users/alex/Documents/TecLanding/styles/vendor/stack.scss\A \A 81: 	text-transform: uppercase;\A 82: }\A 83: \A 84: .link:hover,\A 85: .link:focus {\A 86: 	color: $contrast-color;\A 87: }\A 88: \A 89: .link--page {\A 90: 	display: block;\A 91: 	color: $main-color-2;"; }

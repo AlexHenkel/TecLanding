@@ -12,9 +12,12 @@ $serif-font: Georgia, "Droid Serif",  times, serif;
 
 // Colors
 $bg-color: #fff;
+$contrast-color: #f99f35;
 $main-color-1: #0039AC;
 $main-color-2: lighten($main-color-1, 20%);
-$main-color-3: darken($main-color-1, 4%);
+$main-color-3: darken($main-color-1, 1%);
 $main-color-4: darken($main-color-1, 10%);
 $bg-light-color: #eaeaea;
 $page-bg: #f2f2f2;
+
+$social-media: #387d9a;

@@ -1,0 +1,7 @@
+.link--faded {
+	color: #666;
+
+	&:hover, &:focus {
+		color: darken(#666, 20%);
+	}
+}
