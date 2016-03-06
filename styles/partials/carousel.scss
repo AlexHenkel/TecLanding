@@ -117,4 +117,8 @@
       }
     }
   }
+
+  @include bp (phone) {
+    bottom: 90px;
+  }
 }
