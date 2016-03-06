@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'bp'.
-        on line 35 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `bp'
-        from line 35 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss
+        on line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `bp'
+        from line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss
 
-30:   background-attachment: fixed;
-31:   background-size: cover;
-32:   background-color: #464646;
-33:   box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);
-34: 
-35:   @include bp (phone) {
-36:       background-position: 30% 20%;
-37:   }
-38: }
-39: 
-40: #overlay {
+29:   background-attachment: fixed;
+30:   background-size: cover;
+31:   background-color: #464646;
+32:   box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);
+33: 
+34:   @include bp (phone) {
+35:       background-position: 30% 20%;
+36:   }
+37: }
+38: 
+39: #overlay {
 
 Backtrace:
-/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:35:in `bp'
-/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:35
+/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:34:in `bp'
+/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:34
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'bp'.\A         on line 35 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `bp'\A         from line 35 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss\A \A 30:   background-attachment: fixed;\A 31:   background-size: cover;\A 32:   background-color: #464646;\A 33:   box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);\A 34: \A 35:   @include bp (phone) {\A 36:       background-position: 30% 20%;\A 37:   }\A 38: }\A 39: \A 40: #overlay {"; }
+  content: "Error: Undefined mixin 'bp'.\A         on line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `bp'\A         from line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss\A \A 29:   background-attachment: fixed;\A 30:   background-size: cover;\A 31:   background-color: #464646;\A 32:   box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);\A 33: \A 34:   @include bp (phone) {\A 35:       background-position: 30% 20%;\A 36:   }\A 37: }\A 38: \A 39: #overlay {"; }

@@ -135,6 +135,63 @@
 					<div class="triangle-4"></div>	
 				</a>
 		    </div>
+		    <div class="container-fluid">
+		    	<div class="row">
+		    		<div class="col-md-3"></div>
+		    		<div class="col-md-6">
+		    			<form id="nl-form" class="nl-form">
+							Estoy interesad@ en estudiar la
+							<select>
+								<option value="1">Preparatoria</option>
+								<option value="2" selected>Carrera Profesional</option>
+								<option value="3">Maestría o Doctorado</option>
+							</select>
+							<br />en Campus
+							<select>
+								<option value="1">Aguascalientes</option>
+								<option value="2">Central de Veracruz</option>
+								<option value="3">Chiapas</option>
+								<option value="4">Chihuahua</option>
+								<option value="5">Ciudad de México</option>
+								<option value="6">Ciudad Juárez</option>
+								<option value="7">Ciudad Obregón</option>
+								<option value="8">Navojoa</option>
+								<option value="9">Cuernavaca</option>
+								<option value="10">Estado de México</option>
+								<option value="11">Esmeralda (Preparatoria)</option>
+								<option value="12">Guadalajara</option>
+								<option value="13">Hidalgo</option>
+								<option value="14">Irapuato</option>
+								<option value="15">Laguna</option>
+								<option value="16">León</option>
+								<option value="17" selected>Monterrey</option>
+								<option value="18">Cumbres (Preparatoria)</option>
+								<option value="19">Eugenio Garza Lagüera (Preparatoria)</option>
+								<option value="20">Eugenio Garza Sada (Preparatoria)</option>
+								<option value="21">Santa Catarina (Preparatoria)</option>
+								<option value="22">Valle Alto (Preparatoria)</option>
+								<option value="23">Morelia</option>
+								<option value="24">Puebla</option>
+								<option value="25">Querétaro</option>
+								<option value="26">Saltillo</option>
+								<option value="27">San Luis Potosí</option>
+								<option value="28">Santa Fe</option>
+								<option value="29">Sinaloa</option>
+								<option value="30">Sonora Norte</option>
+								<option value="31">Matamoros (Preparatoria)</option>
+								<option value="32">Toluca</option>
+								<option value="33">Zacatecas</option>
+							</select>
+							
+							<div class="nl-submit-wrap">
+								<button class="nl-submit" type="submit">Find a restaurant</button>
+							</div>
+							<div class="nl-overlay"></div>
+						</form>
+		    		</div>
+		    		<div class="col-md-3"></div>
+		    	</div>
+		    </div>
 		</div>
 		<!-- /page -->
 		<div class="page" id="page-docu">
@@ -166,11 +223,12 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/classie.js"></script>
+	<script src="js/vendor/classie.js"></script>
 	<script src="js/main.js"></script>
 	<script src="js/vendor/clipboard.min.js"></script>
-	<script src="js/ariel.js"></script>
+	<script src="js/vendor/ariel.js"></script>
 	<script src="js/vendor/uisearch.js"></script>
+	<script src="js/vendor/nlform.js"></script>
 
 	<script src="js/functions.js"></script>
 

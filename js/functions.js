@@ -1,6 +1,8 @@
 new UISearch( document.getElementById( 'sb-search' ) );
 new UISearch( document.getElementById( 'sb-search-phone' ) );
 
+var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+
 
 $(document).ready(function() {
 	$("#toggle-nav-label").click(function(event) {
