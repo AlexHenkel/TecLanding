@@ -7,28 +7,17 @@
  * @include bp(tablet) { SCSS here }
 */
 @mixin bp($point) {
-	@if $point == biggie {
-		@media (max-width : 1600px) { @content; }
+	@if $point == large-desk {
+		@media (min-width : 1200px) { @content; }
 	}
-	@if $point == custom-info {
-		@media (max-width : 1200px) { @content; }
+	@if $point == desk {
+		@media (min-width : 992px) { @content; }
 	}
 	@if $point == tablet {
-		// @media (max-width : 1024px) { @content; }
-		@media (max-width : 1048px) { @content; }
-	}
-	@if $point == mintablet {
-		@media (min-width : 1024px) { @content; }
+		@media (min-width : 768px) { @content; }
 	}
 	@if $point == phone {
-		// @media (max-width : 768px) { @content; }
-		@media (max-width : 848px) { @content; }
-	}
-	@if $point == small {
-		@media (max-width : 600px) { @content; }
-	}
-	@else if $point == minphone {
-		@media (min-width : 768px) { @content; }
+		@media (max-width : 767px) { @content; }
 	}
 }
 
