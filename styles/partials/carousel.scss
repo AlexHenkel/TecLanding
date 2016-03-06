@@ -58,7 +58,7 @@
 
 .triangle-next {
   position: absolute;
-  bottom: 143px;
+  bottom: 110px;
   transform: rotate(90deg);
   right: 9px;
 
@@ -69,11 +69,44 @@
 
 .triangle-prev {
   position: absolute;
-  bottom: 110px;
+  bottom: 75px;
   transform: rotate(270deg);
   right: 66px;
 
   &:focus {
     outline: none;
+  }
+}
+
+.carousel-caption-new {
+  position: absolute;
+  bottom: 118px;
+
+  h1 {
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: none;
+    font-size: 56px;
+    color: #fff;
+
+    .title-colored {
+      background-color: #ff5100;
+      padding: 0 12px;
+      &.first {
+
+      }
+
+      &.second {
+        background-color: #125f15;
+      }
+
+      &.third {
+        background-color: #6800a7;
+      }
+
+      &.fourth {
+        background-color: #a70000;
+      }
+    }
   }
 }

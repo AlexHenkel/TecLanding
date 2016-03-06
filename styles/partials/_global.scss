@@ -44,3 +44,16 @@ a {
 a:hover {
 	color: #fff;
 }
+
+.logo {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	max-width: 226px;
+	z-index: 1000;
+	background: $page-bg;
+	padding: 10px;
+	.logo-img {
+		width: 100%;
+	}
+}
