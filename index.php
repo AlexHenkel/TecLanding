@@ -40,7 +40,7 @@
 	<div class="pages-stack">
 		<!-- page -->
 		<div class="page" id="page-home">
-			<header>
+			<header class="header-main">
 				<section class="section section--menu hidden-xs" id="Ariel">
 					<span class="link-copy"></span>
 					<nav class="menu menu--ariel">
