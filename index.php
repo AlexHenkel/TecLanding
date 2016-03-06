@@ -71,8 +71,7 @@
 					</div>
 					<nav id="menu">
 				    		
-			    		<input type="checkbox" id="toggle-nav"/>
-			    		<label id="toggle-nav-label" for="toggle-nav">Comunidad Tec</label>
+			    		<span id="toggle-nav-label">Comunidad Tec</span>
 			    		
 			    		<div class="box">
 				    		<ul>
