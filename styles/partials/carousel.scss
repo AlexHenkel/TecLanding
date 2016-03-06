@@ -1,0 +1,79 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.carousel-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);
+}
+
+#overlay {
+  background: rgba(0,0,0,.75);
+  text-align: center;
+  padding: 45px 0 66px 0;
+  opacity: 1;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+  background: rgba(22, 25, 212, 0.3);
+  height: 500px;
+}
+
+.triangle-1, .triangle-3 {
+  @include triangle(up, #fff, 35px);
+  position: relative;
+}
+
+.triangle-2, .triangle-4 {
+  @include triangle(up, rgba(25, 27, 173, 0.9), 20px);
+  position: relative;
+  left: 15px;
+  bottom: 26px;
+}
+
+.triangle-next {
+  position: absolute;
+  bottom: 143px;
+  transform: rotate(90deg);
+  right: 9px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.triangle-prev {
+  position: absolute;
+  bottom: 110px;
+  transform: rotate(270deg);
+  right: 66px;
+
+  &:focus {
+    outline: none;
+  }
+}
