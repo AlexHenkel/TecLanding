@@ -141,14 +141,62 @@
 		    		<div class="col-md-4">
 		    			<div class="custom-card blue">
 		    				<div class="card-header">Campus</div>
-		    				<div class="card-body"></div>
+		    				<div class="card-body">
+		    					<section>
+									<select class="cs-select cs-skin-overlay">
+										<option value="" disabled selected>Selecciona tu campus</option>
+										<optgroup label="Rectoría de la Zona Metropolitana de Monterrey">
+											<option value="1">Monterrey</option>
+											<option value="2">Cumbres</option>
+											<option value="3">Eugenio Garza Lagüera</option>
+											<option value="4">Eugenio Garza Sada</option>
+											<option value="5">Santa Catarina</option>
+											<option value="6">Valle Alto</option>
+										</optgroup>
+										<optgroup label="Rectoría de la Zona Occidente">
+											<option value="11">Ciudad Obregón</option>
+											<option value="12">Guadalajara</option>
+											<option value="13">Irapuato</option>
+											<option value="14">Querétaro</option>
+											<option value="15">Sinaloa</option>
+											<option value="16">Sonora Norte</option>
+											<option value="17">León</option>
+										</optgroup>
+										<optgroup label="Rectoría de la Zona Norte">
+											<option value="18">Aguascalientes</option>
+											<option value="19">Chihuahua</option>
+											<option value="20">Ciudad Juárez</option>
+											<option value="21">Laguna</option>
+											<option value="22">Saltillo</option>
+											<option value="23">San Luis Potosí</option>
+											<option value="24">Tampico </option>
+											<option value="25">Zacatecas</option>
+										</optgroup>
+										<optgroup label="Rectoría de la Zona Metropolitana de la Ciudad de México">
+											<option value="7">Ciudad de México</option>
+											<option value="8">Estado de México</option>
+											<option value="9">Santa Fe</option>
+											<option value="10">Toluca</option>
+										</optgroup>
+										<optgroup label="Rectoría de la Zona Sur">
+											<option value="26">Central de Veracruz</option>
+											<option value="27">Chiapas</option>
+											<option value="28">Cuernavaca</option>
+											<option value="29">Hidalgo</option>
+											<option value="30">Morelia</option>
+											<option value="31">Puebla</option>
+										</optgroup>
+
+									</select>
+								</section>
+		    				</div>
 		    			</div>
 		    		</div>
 		    		<div class="col-md-4">
 		    			<div class="custom-card light-blue">
 		    				<div class="card-header">Admisiones</div>
 				    			<div class="card-body bg-img bg-scroll" style="background-image: url('images/admisiones.jpg'); background-position: 50% 50%;">
-				    				<div class="overlay" style="">
+				    				<div class="overlay">
 				    					<form id="nl-form" class="nl-form">
 											Estoy interesad@ en estudiar la
 											<select>
@@ -247,6 +295,7 @@
 	<script src="js/vendor/ariel.js"></script>
 	<script src="js/vendor/uisearch.js"></script>
 	<script src="js/vendor/nlform.js"></script>
+	<script src="js/vendor/selectFx.js"></script>
 
 	<script src="js/functions.js"></script>
 
