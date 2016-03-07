@@ -400,7 +400,6 @@
 					</div>
 
 				</div>
-
 			</footer>
 		    <!-- Modal -->
 			<div class="modal fade" id="modalMajors" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -432,7 +431,7 @@
 							</select>
 						</section>
 
-						<button class="button button--wayra button--border-thick button--text-upper button--size-s button-yellow">Buscar carrera</button>
+						<a href="http://www.itesm.mx/wps/wcm/connect/itesm/tecnologico+de+monterrey/carreras+profesionales/areas+de+estudio/tecnologias+de+informacion+y+electronica/itc" class="button button--wayra button--border-thick button--text-upper button--size-s button-yellow" target="_blank">Buscar carrera</a>
 					</div>
 				</div>
 			</div>
@@ -483,6 +482,55 @@
 			    	</nav>
 				</section>
 			</header>
+			<div class="carousel slide">
+				<div class="logo">
+					<img class="logo-img" src="images/logo.png" alt="">
+				</div>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active carousel-img bg-img bg-cover" style="background-image: url('images/tec.jpg');">
+						<div class="overlay">
+							<div class="container">
+								<div class="carousel-caption-new">
+									<h1>Nosotros</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		    </div>
+		    <footer class="footer-distributed">
+
+				<div class="footer-left">
+
+					<img src="images/logo.png" alt="">
+
+					<p class="footer-links">
+						<a href="#">Aviso legal</a>
+						·
+						<a href="#">Políticas de privacidad</a>
+						·
+						<a href="#">Aviso de privacidad</a>
+						·
+						<a href="#">Sobre el sitio</a>
+					</p>
+
+					<p class="footer-company-name">D.R.&copy; Instituto Tecnológico y de Estudios Superiores de Monterrey, México. 2015</p>
+				</div>
+
+				<div class="footer-right">
+
+					<div>
+						<i class="fa fa-map-marker"></i>
+						<p><span>Ave. Eugenio Garza Sada 2501 Sur Col. Tecnológico C.P. 64849</span> Monterrey, Nuevo León, México</p>
+					</div>
+
+					<div>
+						<i class="fa fa-phone"></i>
+						<p>+52 (81) 8358-2000</p>
+					</div>
+
+				</div>
+			</footer>
 		</div>
 		<div class="page" id="page-offer">
 		</div>

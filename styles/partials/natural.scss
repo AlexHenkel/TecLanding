@@ -16,9 +16,12 @@
 	font-size: 24px;
 	line-height: 1.5;
 	text-align: left;
-	position: relative;
-	transform: translateY(-50%);
-	top: 50%;
+	
+	@include bp(desk) {
+		position: relative;
+		transform: translateY(-50%);
+		top: 50%;
+	}
 
 	@include bp(phone) {
 		font-size: 18px;
