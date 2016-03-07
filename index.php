@@ -194,8 +194,7 @@
 											</select>
 											
 											<div class="nl-submit-wrap">
-<!-- 												<button class="nl-submit" type="submit">Busca tu lugar</button>
- -->												<button class="button button--wayra button--border-thick 														button--text-upper button--size-s">Busca tu lugar</button>
+											<button class="button button--wayra button--border-thick button--text-upper button--size-s" style="color: #000">Busca tu lugar</button>
 											</div>
 											<div class="nl-overlay"></div>
 										</form>
