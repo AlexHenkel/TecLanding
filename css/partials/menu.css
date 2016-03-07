@@ -1,24 +1,28 @@
 /*
-Error: Undefined variable: "$body-font".
-        on line 15 of /Users/alex/Documents/TecLanding/styles/partials/menu.scss
+Error: Undefined mixin 'bp'.
+        on line 13 of /Users/alex/Documents/TecLanding/styles/partials/menu.scss, in `bp'
+        from line 13 of /Users/alex/Documents/TecLanding/styles/partials/menu.scss
 
+8: 		height: 95px;
+9: 		position: relative;
 10: 		font-size: 16px;
 11: 	}
 12: 	.card-body {
-13: 		height: 240px;
-14: 		background-color: #fff;
-15: 		font-family: $body-font;
-16: 		a {
-17: 			color: $content-color;
-18: 			&:hover {
-19: 				color: $main-color-1;
-20: 			}
+13: 		@include bp(tablet) {
+14: 			height: 240px;
+15: 		}
+16: 		background-color: #fff;
+17: 		font-family: $body-font;
+18: 		a {
 
 Backtrace:
-/Users/alex/Documents/TecLanding/styles/partials/menu.scss:15
-/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/Users/alex/Documents/TecLanding/styles/partials/menu.scss:13:in `bp'
+/Users/alex/Documents/TecLanding/styles/partials/menu.scss:13
+/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
+/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:98:in `with_mixin'
+/Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
@@ -81,4 +85,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$body-font\".\A         on line 15 of /Users/alex/Documents/TecLanding/styles/partials/menu.scss\A \A 10: 		font-size: 16px;\A 11: 	}\A 12: 	.card-body {\A 13: 		height: 240px;\A 14: 		background-color: #fff;\A 15: 		font-family: $body-font;\A 16: 		a {\A 17: 			color: $content-color;\A 18: 			&:hover {\A 19: 				color: $main-color-1;\A 20: 			}"; }
+  content: "Error: Undefined mixin 'bp'.\A         on line 13 of /Users/alex/Documents/TecLanding/styles/partials/menu.scss, in `bp'\A         from line 13 of /Users/alex/Documents/TecLanding/styles/partials/menu.scss\A \A 8: 		height: 95px;\A 9: 		position: relative;\A 10: 		font-size: 16px;\A 11: 	}\A 12: 	.card-body {\A 13: 		@include bp(tablet) {\A 14: 			height: 240px;\A 15: 		}\A 16: 		background-color: #fff;\A 17: 		font-family: $body-font;\A 18: 		a {"; }

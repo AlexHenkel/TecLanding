@@ -10,7 +10,9 @@
 		font-size: 16px;
 	}
 	.card-body {
-		height: 240px;
+		@include bp(tablet) {
+			height: 240px;
+		}
 		background-color: #fff;
 		font-family: $body-font;
 		a {
