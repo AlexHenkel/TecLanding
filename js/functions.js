@@ -19,7 +19,15 @@ var nlform = new NLForm( document.getElementById( 'nl-form' ) );
 	} );
 })();
 
+(function() {
+	[].slice.call( document.querySelectorAll( 'select.cs-select.select-2' ) ).forEach( function(el) {	
+		new SelectFx(el);
+	} );
+})();
+
 $(document).ready(function() {
+
+	$('#modalMajors').appendTo("body");
 
 	// Prevent body to scroll at modal
 	function preventScroll() {
@@ -65,7 +73,11 @@ $(document).ready(function() {
 		/* Act on the event */
 		$(this).closest(".cs-select").toggleClass('cs-active');
 		$(".select-1 .cs-placeholder").show();
-		preventScroll();
+	});
+
+	$(".cs-options ul li").click(function(event) {
+		/* Act on the event */
+		$(this).closest(".cs-select").toggleClass('cs-active');
 	});
 
 	

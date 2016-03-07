@@ -1,0 +1,16 @@
+.modal-backdrop.in {
+	opacity: 0.9; 
+}
+
+#modalMajors {
+	.modal-dialog {
+    	width: auto !important;
+    }
+    div.cs-skin-border {
+    	max-width: none;
+    	background: #fff;
+    }
+    .modal-content{
+    	background: transparent;
+    }
+}

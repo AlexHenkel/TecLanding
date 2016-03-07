@@ -242,7 +242,7 @@
 											</select>
 											
 											<div class="nl-submit-wrap">
-												<button class="button button--wayra button--border-thick button--text-upper button--size-s">Busca tu lugar</button>
+												<button class="button button--wayra button--border-thick button--text-upper button--size-s" data-toggle="modal" data-target="#modalMajors">Busca tu lugar</button>
 											</div>
 											<div class="nl-overlay"></div>
 										</form>
@@ -368,6 +368,74 @@
 					<div value="6" class="features-background" style="background-image: url('images/difusion.jpg');"></div>
 		    	</div>
 		    </section>
+		    <footer class="footer-distributed">
+
+				<div class="footer-left">
+
+					<img src="images/logo.png" alt="">
+
+					<p class="footer-links">
+						<a href="#">Aviso legal</a>
+						·
+						<a href="#">Políticas de privacidad</a>
+						·
+						<a href="#">Aviso de privacidad</a>
+						·
+						<a href="#">Sobre el sitio</a>
+					</p>
+
+					<p class="footer-company-name">D.R.&copy; Instituto Tecnológico y de Estudios Superiores de Monterrey, México. 2015</p>
+				</div>
+
+				<div class="footer-right">
+
+					<div>
+						<i class="fa fa-map-marker"></i>
+						<p><span>Ave. Eugenio Garza Sada 2501 Sur Col. Tecnológico C.P. 64849</span> Monterrey, Nuevo León, México</p>
+					</div>
+
+					<div>
+						<i class="fa fa-phone"></i>
+						<p>+52 (81) 8358-2000</p>
+					</div>
+
+				</div>
+
+			</footer>
+		    <!-- Modal -->
+			<div class="modal fade" id="modalMajors" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<section>
+							<select class="cs-select cs-skin-border select-2">
+								<option value="" disabled selected>Selecciona tu carrera</option>
+								<option value="1">Licenciado en Administración y Estrategia de Negocios </option>
+								<option value="2">Licenciado en Administración Financiera </option>
+								<option value="3">Licenciado en Creación y Desarrollo de Empresas  </option>
+								<option value="4">Licenciado en Contaduría Pública y Finanzas </option>
+								<option value="5">Licenciado en Derecho y Finanzas </option>
+								<option value="6">Licenciado en Innovación y Dirección de Negocios </option>
+								<option value="7">Licenciado en Derecho y Ciencia Política </option>
+								<option value="8">Licenciado en Economía </option>
+								<option value="9">Licenciado en Derecho </option>
+								<option value="10">Licenciado en Economía y Finanzas </option>
+								<option value="11">Licenciado en Mercadotecnia </option>
+								<option value="12">Licenciado en Negocios Internacionales </option>
+								<option value="13">Licenciado en Logística Internacional </option>
+								<option value="14">Licenciado en Mercadotecnia y Comunicación </option>
+								<option value="15">Licenciado en Publicidad y Comunicación de Mercados</option>
+								<option value="16">Ingeniero Biomédico </option>
+								<option value="17">Licenciado en Nutrición y Bienestar Integral </option>
+								<option value="18">Licenciado en Psicología Clínica y de la Salud </option>
+								<option value="19">Médico Cirujano </option>
+								<option value="20">Médico Cirujano Odontólogo </option>
+							</select>
+						</section>
+
+						<button class="button button--wayra button--border-thick button--text-upper button--size-s button-yellow">Buscar carrera</button>
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- /page -->
 		<div class="page" id="page-docu">
@@ -393,6 +461,11 @@
 		<div class="page" id="page-contact">
 			
 		</div>
+
+
+
+		<!-- Modals -->
+		
 	</div>
 	<!-- /pages-stack -->
 	<button class="menu-button"><span>Menu</span></button>
