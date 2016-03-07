@@ -20,33 +20,56 @@ var nlform = new NLForm( document.getElementById( 'nl-form' ) );
 })();
 
 $(document).ready(function() {
+
+	// Prevent body to scroll at modal
+	function preventScroll() {
+		$(".js .page").toggleClass("o-hidden");
+	}
+
+	// Prevent other menus to show at modal and scroll
 	$("#toggle-nav-label").click(function(event) {
 		/* Act on the event */
 		$(this).toggleClass('active');
+		preventScroll();
+		$(".select-0 .cs-placeholder").hide();
 	});
 
 	$(".box").click(function(event) {
 		/* Act on the event */
 		$("#toggle-nav-label").removeClass('active');
+		preventScroll();
+		$(".select-0 .cs-placeholder").show();
 	});
 
+	// Action when clicked the select box
 	$(".select-0 .cs-placeholder").click(function(event) {
 		/* Act on the event */
 		$(".select-1 .cs-placeholder").hide();
+		preventScroll();
 	});
 
+	$(".select-1 .cs-placeholder").click(function(event) {
+		/* Act on the event */
+		preventScroll();
+	});
+
+	// Action when selected or quit modal
 	$(".cs-options").click(function(event) {
 		/* Act on the event */
 		$(this).closest(".cs-select").toggleClass('cs-active');
 		$(".select-1 .cs-placeholder").show();
+		preventScroll();
 	});
 
 	$(".cs-optgroup ul li").click(function(event) {
 		/* Act on the event */
 		$(this).closest(".cs-select").toggleClass('cs-active');
 		$(".select-1 .cs-placeholder").show();
+		preventScroll();
 	});
 
+	
+	// Change gallery
 	$(".features-link").mouseover(function(event) {
 		/* Act on the event */
 		$(".features-link").removeClass('active');
