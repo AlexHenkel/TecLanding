@@ -26,14 +26,14 @@
 		<div class="pages-nav__item"><a class="link link--page" href="#page-research">Investigación</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-global">Visión Global</a></div>
 		<div class="pages-nav__item"><a class="link link--page" href="#page-human">Sentido Humano</a></div>
-		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-library">Biblioteca Digital</a></div>
-		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-news">Noticias</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="http://millenium.itesm.mx/" target="_blank">Biblioteca Digital</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="http://www.itesm.mx/wps/wcm/connect/SNC/Portal+Informativo/?cache=none" target="_blank">Noticias</a></div>
 		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">Contacto</a></div>
 		<div class="pages-nav__item pages-nav__item--social">
-			<a class="link link--social link--faded" href="#"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
-			<a class="link link--social link--faded" href="#"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
-			<a class="link link--social link--faded" href="#"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
-			<a class="link link--social link--faded" href="#"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
+			<a class="link link--social link--faded" href="https://twitter.com/TecdeMonterrey" target="_blank"><i class="fa fa-twitter"></i><span class="text-hidden">Twitter</span></a>
+			<a class="link link--social link--faded" href="http://www.linkedin.com/company/itesm" target="_blank"><i class="fa fa-linkedin"></i><span class="text-hidden">LinkedIn</span></a>
+			<a class="link link--social link--faded" href="https://www.facebook.com/TecdeMonterrey" target="_blank"><i class="fa fa-facebook"></i><span class="text-hidden">Facebook</span></a>
+			<a class="link link--social link--faded" href="http://www.youtube.com/itesmedu" target="_blank"><i class="fa fa-youtube-play"></i><span class="text-hidden">YouTube</span></a>
 		</div>
 	</nav>
 	<!-- /navigation-->
@@ -46,10 +46,10 @@
 					<span class="link-copy"></span>
 					<nav class="menu menu--ariel">
 						<ul class="menu__list">
-							<li class="menu__item menu__item--current"><a href="#" class="menu__link">Alumnos</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Padres</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Egresados</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Profesores</a></li>
+							<li class="menu__item menu__item--current"><a href="https://mitec.itesm.mx/portal/page/portal/Alumnos/Publica?p_iPortal=1" class="menu__link" target="_blank">Alumnos</a></li>
+							<li class="menu__item"><a href="https://padres.itesm.mx/portal/page/portal/Padres/Publica?p_iPortal=2" class="menu__link" target="_blank">Padres</a></li>
+							<li class="menu__item"><a href="https://egresados.itesm.mx/portal/page/portal/DRE_2015/Portada" class="menu__link" target="_blank">Egresados</a></li>
+							<li class="menu__item"><a href="http://miespacio.itesm.mx/" class="menu__link" target="_blank">Profesores</a></li>
 							<li class="menu__item">
 								<div id="sb-search" class="sb-search">
 									<form>
@@ -76,10 +76,10 @@
 			    		
 			    		<div class="box">
 				    		<ul>
-				    			<li><a href="#">Alumnos</a></li>
-				    			<li><a href="#">Padres</a></li>
-				    			<li><a href="#">Egresados</a></li>
-				    			<li><a href="#">Profesores</a></li>
+				    			<li><a href="https://mitec.itesm.mx/portal/page/portal/Alumnos/Publica?p_iPortal=1" target="_blank">Alumnos</a></li>
+				    			<li><a href="https://padres.itesm.mx/portal/page/portal/Padres/Publica?p_iPortal=2" target="_blank">Padres</a></li>
+				    			<li><a href="https://egresados.itesm.mx/portal/page/portal/DRE_2015/Portada" target="_blank">Egresados</a></li>
+				    			<li><a href="http://miespacio.itesm.mx/" target="_blank">Profesores</a></li>
 				    		</ul>
 			    		</div>
 			    	</nav>
@@ -438,24 +438,18 @@
 			</div>
 		</div>
 		<!-- /page -->
-		<div class="page" id="page-docu">
+		<div class="page" id="page-about">
 			
 		</div>
-		<div class="page" id="page-manuals">
+		<div class="page" id="page-offer">
 		</div>
-		<div class="page" id="page-software">
+		<div class="page" id="page-research">
 			
 		</div>
-		<div class="page" id="page-custom">
+		<div class="page" id="page-global">
 			
 		</div>
-		<div class="page" id="page-training">
-			
-		</div>
-		<div class="page" id="page-buy">
-			
-		</div>
-		<div class="page" id="page-blog">
+		<div class="page" id="page-human">
 			
 		</div>
 		<div class="page" id="page-contact">
