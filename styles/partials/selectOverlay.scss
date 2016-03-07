@@ -192,7 +192,9 @@ div.cs-skin-overlay {
 }
 
 @media screen and (max-width: 30em) {
-	.cs-skin-overlay .cs-optgroup { width: 100%; float: none; }
+	.select-0.cs-skin-overlay .cs-optgroup { 
+		width: 50%; 
+	}
 }
 
 .cs-skin-overlay .cs-optgroup > span {
@@ -267,8 +269,8 @@ div.cs-skin-overlay {
 	}
 }
 
-.cs-skin-overlay .cs-optgroup > span{
+.select-0.cs-skin-overlay .cs-optgroup > span{
 	@include bp(phone) {
-		margin: -12px 0;
+		display: none;
 	}
 }

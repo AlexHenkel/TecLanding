@@ -4,7 +4,17 @@
 /* Carousel base class */
 .carousel {
   height: 500px;
+  @include bp(phone) {
+    margin-top: 52px;
+  }
+
+  &.search-active {
+    @include bp(phone) {
+      margin-top: 92px;
+    }
+  }
 }
+
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;

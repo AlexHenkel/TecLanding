@@ -78,8 +78,8 @@
 				    		<ul>
 				    			<li><a href="#">Alumnos</a></li>
 				    			<li><a href="#">Padres</a></li>
-				    			<li><a href="#">Egresados</li>
-				    			<li><a href="#">Profesores</li>
+				    			<li><a href="#">Egresados</a></li>
+				    			<li><a href="#">Profesores</a></li>
 				    		</ul>
 			    		</div>
 			    	</nav>
