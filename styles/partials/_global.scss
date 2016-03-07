@@ -66,6 +66,7 @@ a:hover {
 
 .container-custom {
 	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .bg-img {
@@ -153,4 +154,8 @@ a:hover {
 		width: auto;
 		padding: 10px;
 	}
+}
+
+.pr {
+	position: relative;
 }

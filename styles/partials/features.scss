@@ -1,0 +1,314 @@
+.features {
+	padding: 64px 0;
+	background-color: #111111;
+	color: #FFFFFF;
+	@include bp(desk) {
+		padding-top: 128px;
+	}
+
+	h3 {
+		font-weight: 600;
+		line-height: 1.08;
+		margin-bottom: 7px;
+		display: block;
+		font-size: 21px;
+
+		@include bp(tablet) {
+			font-size: 26px;
+		}
+
+		@include bp(desk) {
+			font-size: 28px;
+		}
+	}
+
+	h6 {
+		font-size: 13px;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 1.8px;
+		line-height: 1.08;
+		display: block;
+	}
+
+	.col-lg-6 {
+		@include bp (desk) {
+			box-sizing: border-box;
+			width: 50%;
+			float: left;
+			padding-left: 2.08333%;
+			padding-right: 2.08333%;
+		}
+	}
+
+	.col-md-12 {
+		@include bp(tablet) {
+			box-sizing: border-box;
+			width: 100%;
+			float: left;
+			padding-left: 2.08333%;
+			padding-right: 2.08333%;
+		}
+	}
+
+	.row-negative-margin {
+		margin-left: -2.08333%;
+		margin-right: -2.08333%;
+	}
+
+	.container-fluid {
+		width: 90%;
+		margin: 0 5%;
+		position: relative;
+		z-index: 5;
+	}
+
+	.little-title {
+		text-transform: uppercase;
+		font-weight: 600;
+		letter-spacing: 0.13rem;
+		line-height: 1.08;
+		font-size: 14.6px;
+		margin: 0;
+		margin-bottom: 12px;
+		display: inline-block;
+		border-bottom: 5px solid $main-color-1;
+		padding-bottom: 7px;
+	}
+
+	.flex {
+		@include bp (tablet) {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			-ms-flex-align: center;
+			align-items: center;
+		}
+
+		&.row {
+			padding-top: 32px;
+			@include bp(desk) {
+				padding-top: 0;
+			}
+		}
+	}
+
+	.caption {
+		font-size: 31px;
+		font-family: $display-font;
+		margin: 0px;
+	}
+
+	a {
+		color: #fff;
+		&:hover, &:active {
+			color: $contrast-color;
+		}
+	}
+
+	.features-link {
+		display: block;
+		text-decoration: none;
+		position: relative;
+		cursor: pointer;
+		text-align: center;
+
+		&:focus {
+			outline: none;
+		}
+
+		@include bp(desk) {
+			height: 0;
+			text-align: left;
+			padding-bottom: 40%;
+		}
+
+		&.active {
+			.link-content {
+				@include bp(desk) {
+					left: 10%;
+					text-shadow: 1px 1px 3px rgba(17,17,17,0.5);
+				}
+			}
+
+			h3 {
+				@include bp(desk) {
+					color: $main-color-1;
+				}
+			}
+		}
+
+		.link-content {
+			position: relative;
+			z-index: 5;
+
+			@include bp(desk) {
+				position: absolute;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+				-webkit-box-align: center;
+				-webkit-align-items: center;
+				-ms-flex-align: center;
+				align-items: center;
+				-webkit-transition: all 0.4s;
+				transition: all 0.4s;
+			}
+
+			@include bp(tablet) {
+				padding-bottom: 128px;
+				padding-top: 128px;
+			}
+
+			@include bp(phone) {
+				padding-bottom: 64px;
+				padding-top: 64px;
+			}
+
+			h6 {
+				margin-bottom: 0;
+			}
+
+			.content-inner {
+				width: 100%;
+				padding: 0 28px;
+
+				@include bp(desk) {
+					width: auto;
+					padding: 0 28px 0 0;
+				}
+			}
+		}
+	}
+
+	.background-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: 1;
+
+		@include bp(desk) {
+			display: none;
+		}
+	}
+
+	.features-link {
+		p {
+			display: none;
+			@include bp(noDesk) {
+				padding: 1em;
+				-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+				transition: opacity 0.35s, transform 0.35s;
+				color: $contrast-color;
+				display: block;
+			}
+		}
+
+		h6 {
+			@include bp(noDesk) {
+				-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+				transition: opacity 0.35s, transform 0.35s;
+				color: #eaeaea;
+			}
+		}
+
+		.background-image {
+			@include bp (noDesk) {
+				-webkit-transition: opacity 0.35s;
+				transition: opacity 0.35s;
+			}
+		}
+
+		h3 {
+			@include bp (noDesk) {
+				-webkit-transition: opacity 0.35s;
+				transition: opacity 0.35s;
+				color: $contrast-color;
+				font-weight: 700;
+			}
+		}
+		&:hover {
+			p {
+				@include bp(noDesk) {
+					font-size: 20px;
+					color: #fff;
+				}
+			}
+
+			h6 {
+				@include bp(noDesk) {
+					opacity: 0;
+				}
+			}
+
+			.background-image {
+				@include bp(noDesk) {
+					opacity: 0.4;
+				}
+			}
+
+			h3 {
+				@include bp(noDesk) {
+					font-size: 24px;
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.features-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		z-index: 1;
+		background-color: #111111;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.features-bg-courtain {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		content: "";
+		background-image: -webkit-linear-gradient(0deg,rgba(17,17,17,0.95),rgba(17,17,17,0.8) 50%,rgba(17,17,17,0.6));
+		background-image: linear-gradient(90deg,rgba(17,17,17,0.95),rgba(17,17,17,0.8) 50%,rgba(17,17,17,0.6));
+		z-index: 4;
+	}
+
+	.features-background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		z-index: 2;
+		-webkit-transition: all 0.35s;
+		transition: all 0.35s;
+		opacity: 0;
+
+		&.active {
+			opacity: 1;
+		}
+	}
+}

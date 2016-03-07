@@ -271,6 +271,103 @@
 		    		</div>
 		    	</div>
 		    </div>
+		    <section class="features pr">
+		    	<div class="container-fluid">
+		    		<div class="row">
+		    			<div class="col-lg-10">
+							<h6 class="little-title">Vida en el Tec</h6>
+							<p class="caption">Nuestra comunidad <strong>crea soluciones</strong>, <strong>vive el emprendedurismo</strong>, <strong>busca la justicia</strong>, y cree siempre en el <strong>bien común.</strong></p>
+						</div>
+		    		</div>
+		    		<div class="row flex">
+		    			<div class="col-md-12">
+		    				<div class="row row-negative-margin">
+		    					<div class="col-lg-6 pad-48">
+		    						<a href="#" class="features-link" value="1">
+		    							<div class="link-content">
+		    								<div class="content-inner">
+			    								<h3>Modelo Tec21</h3>
+			    								<p>El salón de clases ya no es lo que parece. <strong>Reinventamos</strong> la forma educativa.</p>
+			    								<h6>Conoce más</h6>
+			    							</div>
+		    							</div>
+		    							<div class="background-image" style="background-image: url(images/tec21.jpg)"></div>
+		    						</a>
+		    					</div>
+		    					<div class="col-lg-6 pad-48">
+		    						<a href="#" class="features-link" value="2">
+		    							<div class="link-content">
+		    								<div class="content-inner">
+			    								<h3>Programas Internacionales</h3>
+			    								<p>1 de cada 2 alumnos ya vivió una experiencia en el <strong>extranjero</strong>. ¿Tú qué esperas?</p>
+			    								<h6>Ir al sitio PI</h6>
+			    							</div>
+		    							</div>
+		    							<div class="background-image" style="background-image: url(images/pi.jpg)"></div>
+		    						</a>
+		    					</div>
+		    					<div class="col-lg-6 pad-48">
+		    						<a href="#" class="features-link" value="3">
+		    							<div class="link-content">
+		    								<div class="content-inner">
+			    								<h3>Sentido Humano</h3>
+			    								<p>Ya no se trata de las horas. Se trata de las <strong>personas</strong>.</p>
+			    								<h6>Ir al sitio SIASS</h6>
+			    							</div>
+		    							</div>
+		    							<div class="background-image" style="background-image: url(images/serviciossocial.jpg)"></div>
+		    						</a>
+		    					</div>
+		    					<div class="col-lg-6 pad-48">
+		    						<a href="#" class="features-link" value="4">
+		    							<div class="link-content">
+		    								<div class="content-inner">
+			    								<h3>Deportes</h3>
+			    								<p>Ser <strong>borrego</strong> en la cancha y en el corazón.</p>
+			    								<h6>Ir al sitio Deportes</h6>
+			    							</div>
+		    							</div>
+		    							<div class="background-image" style="background-image: url(images/borregos.jpg)"></div>
+		    						</a>
+		    					</div>
+		    					<div class="col-lg-6 pad-48">
+		    						<a href="#" class="features-link" value="5">
+		    							<div class="link-content">
+		    								<div class="content-inner">
+			    								<h3>Investigación</h3>
+			    								<p>A la vanguardia con la <strong>ciencia</strong>. A la vanguardia con el mundo.</p>
+			    								<h6>Conoce más</h6>
+			    							</div>
+		    							</div>
+		    							<div class="background-image" style="background-image: url(images/investigacion1.jpg)"></div>
+		    						</a>
+		    					</div>
+		    					<div class="col-lg-6 pad-48">
+		    						<a href="#" class="features-link" value="6">
+		    							<div class="link-content">
+		    								<div class="content-inner">
+			    								<h3>Difusión Cultural</h3>
+			    								<p>¿Quién dijo que el <strong>arte</strong> no era para nosotros?</p>
+			    								<h6>Ir al sitio DC</h6>
+			    							</div>
+		    							</div>
+		    							<div class="background-image" style="background-image: url(images/difusion.jpg)"></div>
+		    						</a>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<div class="features-bg">
+		    		<div class="features-bg-courtain"></div>
+					<div value="1" class="features-background" style="background-image: url('images/tec21.jpg');"></div>
+					<div value="2" class="features-background" style="background-image: url('images/pi.jpg');"></div>
+					<div value="3" class="features-background" style="background-image: url('images/serviciossocial.jpg');"></div>
+					<div value="4" class="features-background" style="background-image: url('images/borregos.jpg');"></div>
+					<div value="5" class="features-background" style="background-image: url('images/investigacion1.jpg');"></div>
+					<div value="6" class="features-background" style="background-image: url('images/difusion.jpg');"></div>
+		    	</div>
+		    </section>
 		</div>
 		<!-- /page -->
 		<div class="page" id="page-docu">

@@ -13,6 +13,9 @@
 	@if $point == desk {
 		@media (min-width : 992px) { @content; }
 	}
+	@if $point == noDesk {
+		@media (max-width : 991px) { @content; }
+	}
 	@if $point == tablet {
 		@media (min-width : 768px) { @content; }
 	}
