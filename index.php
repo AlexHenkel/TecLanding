@@ -87,7 +87,7 @@
 			</header>
 			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
 				<div class="logo">
-					<img class="logo-img" src="images/logo.png" alt="">
+					<a href="#page-home"><img class="logo-img" src="images/logo.png" alt=""></a>
 				</div>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active carousel-img bg-img bg-cover" style="background-image: url('images/rectoria.jpg');">
@@ -136,7 +136,7 @@
 					<div class="triangle-4"></div>	
 				</a>
 		    </div>
-		    <div class="container-fluid container-custom">
+		    <div class="container-fluid container-custom home-cards">
 		    	<div class="row">
 		    		<div class="col-md-4">
 		    			<div class="custom-card blue">
@@ -195,59 +195,59 @@
 		    		<div class="col-md-4">
 		    			<div class="custom-card light-blue">
 		    				<div class="card-header">Admisiones</div>
-				    			<div class="card-body bg-img bg-scroll" style="background-image: url('images/admisiones.jpg'); background-position: 50% 50%;">
-				    				<div class="overlay">
-				    					<form id="nl-form" class="nl-form">
-											Estoy interesad@ en estudiar la
-											<select>
-												<option value="1">Preparatoria</option>
-												<option value="2" selected>Carrera Profesional</option>
-												<option value="3">Maestría o Doctorado</option>
-											</select>
-											<br />en Campus
-											<select>
-												<option value="1">Aguascalientes</option>
-												<option value="2">Central de Veracruz</option>
-												<option value="3">Chiapas</option>
-												<option value="4">Chihuahua</option>
-												<option value="5">Ciudad de México</option>
-												<option value="6">Ciudad Juárez</option>
-												<option value="7">Ciudad Obregón</option>
-												<option value="8">Navojoa</option>
-												<option value="9">Cuernavaca</option>
-												<option value="10">Estado de México</option>
-												<option value="11">Esmeralda (Preparatoria)</option>
-												<option value="12">Guadalajara</option>
-												<option value="13">Hidalgo</option>
-												<option value="14">Irapuato</option>
-												<option value="15">Laguna</option>
-												<option value="16">León</option>
-												<option value="17" selected>Monterrey</option>
-												<option value="18">Cumbres (Preparatoria)</option>
-												<option value="19">Eugenio Garza Lagüera (Preparatoria)</option>
-												<option value="20">Eugenio Garza Sada (Preparatoria)</option>
-												<option value="21">Santa Catarina (Preparatoria)</option>
-												<option value="22">Valle Alto (Preparatoria)</option>
-												<option value="23">Morelia</option>
-												<option value="24">Puebla</option>
-												<option value="25">Querétaro</option>
-												<option value="26">Saltillo</option>
-												<option value="27">San Luis Potosí</option>
-												<option value="28">Santa Fe</option>
-												<option value="29">Sinaloa</option>
-												<option value="30">Sonora Norte</option>
-												<option value="31">Matamoros (Preparatoria)</option>
-												<option value="32">Toluca</option>
-												<option value="33">Zacatecas</option>
-											</select>
-											
-											<div class="nl-submit-wrap">
-												<button class="button button--wayra button--border-thick button--text-upper button--size-s" data-toggle="modal" data-target="#modalMajors">Busca tu lugar</button>
-											</div>
-											<div class="nl-overlay"></div>
-										</form>
-				    				</div>
-				    			</div>
+			    			<div class="card-body bg-img bg-scroll" style="background-image: url('images/admisiones.jpg'); background-position: 50% 50%;">
+			    				<div class="overlay">
+			    					<form id="nl-form" class="nl-form">
+										Estoy interesad@ en estudiar la
+										<select>
+											<option value="1">Preparatoria</option>
+											<option value="2" selected>Carrera Profesional</option>
+											<option value="3">Maestría o Doctorado</option>
+										</select>
+										<br />en Campus
+										<select>
+											<option value="1">Aguascalientes</option>
+											<option value="2">Central de Veracruz</option>
+											<option value="3">Chiapas</option>
+											<option value="4">Chihuahua</option>
+											<option value="5">Ciudad de México</option>
+											<option value="6">Ciudad Juárez</option>
+											<option value="7">Ciudad Obregón</option>
+											<option value="8">Navojoa</option>
+											<option value="9">Cuernavaca</option>
+											<option value="10">Estado de México</option>
+											<option value="11">Esmeralda (Preparatoria)</option>
+											<option value="12">Guadalajara</option>
+											<option value="13">Hidalgo</option>
+											<option value="14">Irapuato</option>
+											<option value="15">Laguna</option>
+											<option value="16">León</option>
+											<option value="17" selected>Monterrey</option>
+											<option value="18">Cumbres (Preparatoria)</option>
+											<option value="19">Eugenio Garza Lagüera (Preparatoria)</option>
+											<option value="20">Eugenio Garza Sada (Preparatoria)</option>
+											<option value="21">Santa Catarina (Preparatoria)</option>
+											<option value="22">Valle Alto (Preparatoria)</option>
+											<option value="23">Morelia</option>
+											<option value="24">Puebla</option>
+											<option value="25">Querétaro</option>
+											<option value="26">Saltillo</option>
+											<option value="27">San Luis Potosí</option>
+											<option value="28">Santa Fe</option>
+											<option value="29">Sinaloa</option>
+											<option value="30">Sonora Norte</option>
+											<option value="31">Matamoros (Preparatoria)</option>
+											<option value="32">Toluca</option>
+											<option value="33">Zacatecas</option>
+										</select>
+										
+										<div class="nl-submit-wrap">
+											<button class="button button--wayra button--border-thick button--text-upper button--size-s" data-toggle="modal" data-target="#modalMajors">Busca tu lugar</button>
+										</div>
+										<div class="nl-overlay"></div>
+									</form>
+			    				</div>
+			    			</div>
 		    			</div>
 		    		</div>
 		    		<div class="col-md-4">
@@ -283,7 +283,7 @@
 		    			<div class="col-md-12">
 		    				<div class="row row-negative-margin">
 		    					<div class="col-lg-6 pad-48">
-		    						<a href="#" class="features-link" value="1">
+		    						<a href="http://www.itesm.mx/wps/wcm/connect/ITESM/Tecnologico+de+Monterrey/Nosotros/Modelo+educativo/Modelo+educativo+del+Tecnologico+de+Monterrey/" class="features-link" value="1" target="_blank">
 		    							<div class="link-content">
 		    								<div class="content-inner">
 			    								<h3>Modelo Tec21</h3>
@@ -295,7 +295,7 @@
 		    						</a>
 		    					</div>
 		    					<div class="col-lg-6 pad-48">
-		    						<a href="#" class="features-link" value="2">
+		    						<a href="http://vi.itesm.mx:8080/" class="features-link" value="2" >
 		    							<div class="link-content">
 		    								<div class="content-inner">
 			    								<h3>Programas Internacionales</h3>
@@ -307,7 +307,7 @@
 		    						</a>
 		    					</div>
 		    					<div class="col-lg-6 pad-48">
-		    						<a href="#" class="features-link" value="3">
+		    						<a href="http://siass.itesm.mx/" class="features-link" value="3" target="_blank">
 		    							<div class="link-content">
 		    								<div class="content-inner">
 			    								<h3>Sentido Humano</h3>
@@ -319,7 +319,7 @@
 		    						</a>
 		    					</div>
 		    					<div class="col-lg-6 pad-48">
-		    						<a href="#" class="features-link" value="4">
+		    						<a href="http://tecdeportes.mty.itesm.mx/" class="features-link" value="4" target="_blank">
 		    							<div class="link-content">
 		    								<div class="content-inner">
 			    								<h3>Deportes</h3>
@@ -343,7 +343,7 @@
 		    						</a>
 		    					</div>
 		    					<div class="col-lg-6 pad-48">
-		    						<a href="#" class="features-link" value="6">
+		    						<a href="http://www.mty.itesm.mx/dae/ddc/" class="features-link" value="6" target="_blank">
 		    							<div class="link-content">
 		    								<div class="content-inner">
 			    								<h3>Difusión Cultural</h3>
@@ -484,7 +484,7 @@
 			</header>
 			<div class="carousel slide">
 				<div class="logo">
-					<img class="logo-img" src="images/logo.png" alt="">
+					<a href="#page-home"><img class="logo-img" src="images/logo.png" alt=""></a>
 				</div>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active carousel-img bg-img bg-cover" style="background-image: url('images/tec.jpg');">
@@ -498,6 +498,87 @@
 					</div>
 				</div>
 		    </div>
+		    <section class="menu-home">
+		    	<div class="container container-menu">
+		    		<div class="row">
+		    			<div class="col-sm-4">
+		    				<div class="custom-card">
+		    					<div class="card-header cyan">
+		    						<div class="align-mid align-center">
+		    							Oficina del Presidente
+		    						</div>
+		    					</div>
+		    					<div class="card-body card-pad">
+		    						<ul class="menu-list">
+				    					<li><a href="article.php">Bienvenida</a></li>
+				    					<li><a href="article.php">Semblanza</a></li>
+				    					<li><a href="article.php">Organización</a></li>
+				    				</ul>
+		    					</div>
+		    				</div>
+		    			</div>
+						<div class="col-sm-4">
+		    				<div class="custom-card">
+		    					<div class="card-header light-blue">
+		    						<div class="align-mid align-center">
+		    							Oficina del Rector
+		    						</div>
+		    					</div>
+		    					<div class="card-body card-pad">
+		    						<ul class="menu-list">
+				    					<li><a href="article.php">Mensaje del Rector</a></li>
+				    					<li><a href="article.php">Semblanza</a></li>
+				    					<li><a href="article.php">Organización</a></li>
+				    					<li><a href="article.php">Discursos</a></li>
+				    				</ul>
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<div class="col-sm-4">
+		    				<div class="custom-card">
+		    					<div class="card-header blue">
+		    						<div class="align-mid align-center">
+		    							Formación que Transforma Vidas
+		    						</div>
+		    					</div>
+		    					<div class="card-body card-pad">
+		    						<ul class="menu-list">
+				    					<li><a href="article.php">Plan estratégico 2020</a></li>
+				    					<li><a href="article.php">Propósito</a></li>
+				    					<li><a href="article.php">Principios</a></li>
+				    					<li><a href="article.php">Valores</a></li>
+				    					<li><a href="article.php">Visión</a></li>
+				    					<li><a href="article.php">Diferenciadores</a></li>
+				    					<li><a href="article.php">Código de ética</a></li>
+				    					<li><a href="article.php">Código de Ética de los Estudiantes</a></li>
+				    				</ul>
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<div class="clearfix"></div>
+		    			<div class="col-sm-4">
+		    				<div class="custom-card">
+		    					<div class="card-header cyan">
+									<div class="align-mid align-center">
+										Gobierno Institucional
+									</div>
+		    					</div>
+		    					<div class="card-body card-pad">
+		    						<ul class="menu-list">
+				    					<li><a href="article.php">Gobierno Institucional</a></li>
+				    					<li><a href="article.php">Asamblea de Asociados</a></li>
+				    					<li><a href="article.php">Consejo Directivo</a></li>
+				    					<li><a href="article.php">Consejos y Comités</a></li>
+				    					<li><a href="article.php">Consejos locales</a></li>
+				    					<li><a href="article.php">Consejos y Comités adicionales</a></li>
+				    					<li><a href="article.php">Ex-presidentes del Consejo Directivo</a></li>
+				    				</ul>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </section>
 		    <footer class="footer-distributed">
 
 				<div class="footer-left">
@@ -533,6 +614,130 @@
 			</footer>
 		</div>
 		<div class="page" id="page-offer">
+			<header class="header-main">
+				<section class="section section--menu hidden-xs" id="Ariel">
+					<span class="link-copy"></span>
+					<nav class="menu menu--ariel">
+						<ul class="menu__list">
+							<li class="menu__item menu__item--current"><a href="https://mitec.itesm.mx/portal/page/portal/Alumnos/Publica?p_iPortal=1" class="menu__link" target="_blank">Alumnos</a></li>
+							<li class="menu__item"><a href="https://padres.itesm.mx/portal/page/portal/Padres/Publica?p_iPortal=2" class="menu__link" target="_blank">Padres</a></li>
+							<li class="menu__item"><a href="https://egresados.itesm.mx/portal/page/portal/DRE_2015/Portada" class="menu__link" target="_blank">Egresados</a></li>
+							<li class="menu__item"><a href="http://miespacio.itesm.mx/" class="menu__link" target="_blank">Profesores</a></li>
+							<li class="menu__item">
+								<div id="sb-search-1" class="sb-search">
+									<form>
+										<input class="sb-search-input" placeholder="Escribe tu búsqueda..." type="text" value="" name="search" id="search">
+										<input class="sb-search-submit" type="submit" value="">
+										<span class="sb-icon-search"></span>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</section>
+				<section class="menu-phone visible-xs-block">
+					<div id="sb-search-phone-1" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Escribe tu búsqueda..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+					<nav id="menu">
+				    		
+			    		<span id="toggle-nav-label-1">Comunidad Tec</span>
+			    		
+			    		<div class="box c1">
+				    		<ul>
+				    			<li><a href="https://mitec.itesm.mx/portal/page/portal/Alumnos/Publica?p_iPortal=1" target="_blank">Alumnos</a></li>
+				    			<li><a href="https://padres.itesm.mx/portal/page/portal/Padres/Publica?p_iPortal=2" target="_blank">Padres</a></li>
+				    			<li><a href="https://egresados.itesm.mx/portal/page/portal/DRE_2015/Portada" target="_blank">Egresados</a></li>
+				    			<li><a href="http://miespacio.itesm.mx/" target="_blank">Profesores</a></li>
+				    		</ul>
+			    		</div>
+			    	</nav>
+				</section>
+			</header>
+			<div class="carousel slide">
+				<div class="logo">
+					<a href="#page-home"><img class="logo-img" src="images/logo.png" alt=""></a>
+				</div>
+				<div class="carousel-inner" role="listbox">
+					<div class="item active carousel-img bg-img bg-cover" style="background-image: url('images/tec.jpg');">
+						<div class="overlay">
+							<div class="container">
+								<div class="carousel-caption-new">
+									<h1>Oferta Educativa</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		    </div>
+		    <section class="menu-home">
+		    	<div class="container container-menu">
+		    		<div class="row">
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Agricultura y Alimentos</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Arquitectura</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Ciencias Sociales y Humanidades</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Comunicación y Periodismo</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Derecho</div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Diseño y Arte aplicado</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Ingeniería y Ciencias</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Negocios y Administración</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Salud</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Tecnologías de Información y Electrónica</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Carreras internacionales</a></div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Catálogo de planes de estudio de Carreras Profesionales</a></div></div>
+		    		</div>
+		    	</div>
+		    </section>
+
+		    <section>
+		    	<div class="container">
+		    		<div class="row">
+			    		<div class="col-xs-12"><h2>Otros links:</h2></div>
+			    		<div class="col-sm-12 link-effect"><a class="link link--kukuri" href="#" data-letters="Crédito Educativo">Crédito Educativo</a></div>
+			    		<div class="col-sm-12 link-effect"><a class="link link--kukuri" href="#" data-letters="Modalidades">Modalidades</a></div>
+			    		<div class="col-sm-12 link-effect"><a class="link link--kukuri" href="#" data-letters="Concentraciones">Concentraciones</a></div>
+			    		<div class="col-sm-12 link-effect"><a class="link link--kukuri" href="#" data-letters="Estudia en el Extranjero">Estudia en el Extranjero</a></div>
+			    		<div class="col-sm-12 link-effect"><a class="link link--kukuri" href="#" data-letters="Políticas y Reglamento">Políticas y Reglamento</a></div>
+			    	</div>
+		    	</div>
+		    </section>
+		    <footer class="footer-distributed">
+
+				<div class="footer-left">
+
+					<img src="images/logo.png" alt="">
+
+					<p class="footer-links">
+						<a href="#">Aviso legal</a>
+						·
+						<a href="#">Políticas de privacidad</a>
+						·
+						<a href="#">Aviso de privacidad</a>
+						·
+						<a href="#">Sobre el sitio</a>
+					</p>
+
+					<p class="footer-company-name">D.R.&copy; Instituto Tecnológico y de Estudios Superiores de Monterrey, México. 2015</p>
+				</div>
+
+				<div class="footer-right">
+
+					<div>
+						<i class="fa fa-map-marker"></i>
+						<p><span>Ave. Eugenio Garza Sada 2501 Sur Col. Tecnológico C.P. 64849</span> Monterrey, Nuevo León, México</p>
+					</div>
+
+					<div>
+						<i class="fa fa-phone"></i>
+						<p>+52 (81) 8358-2000</p>
+					</div>
+
+				</div>
+			</footer>
 		</div>
 		<div class="page" id="page-research">
 			

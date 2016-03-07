@@ -92,22 +92,6 @@ a:hover {
 .custom-card {
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
 
-	&.blue {
-		background-color: $blue;
-	}
-
-	&.cyan {
-		background-color: $cyan;
-	}
-
-	&.light-blue {
-		background-color: $light-blue;
-
-		.overlay {
-			background-color: rgba(3, 169, 244, 0.8);
-		}
-	}
-
 	.card-header {
 		text-transform: uppercase;
 		text-align: center;
@@ -123,17 +107,21 @@ a:hover {
 		color: #fff;
 		font-size: 14px;
 		position: relative;
+	}
+	.card-pad {
+		padding: 23px 26px;
+	}
+}
+
+.home-cards {
+	.card-body {
 		.overlay {
 			height: inherit;
 			padding: 23px 26px;
 		}
-
 		@include bp(desk) {
 			height: 305px;
 		}
-	}
-	.card-pad {
-		padding: 23px 26px;
 	}
 }
 
@@ -162,4 +150,117 @@ a:hover {
 
 .o-hidden{
 	overflow: hidden !important;
+}
+
+.blue {
+		background-color: $blue !important;
+}
+
+.cyan {
+	background-color: $cyan !important;
+}
+
+.light-blue {
+	background-color: $light-blue !important;
+
+	.overlay {
+		background-color: rgba(3, 169, 244, 0.8) !important;
+	}
+}
+
+.align-mid {
+	@include bp (desk) {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+.align-center {
+	@include bp (desk) {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+
+.align-center.align-mid {
+	@include bp (tablet) {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%)translateY(-50%);
+	}
+}
+
+.art-title {
+	text-align: center;
+}
+
+.logo-wrapper {
+	padding-bottom: 20px;
+	border-bottom: 6px solid $main-color-1;
+}
+
+.article {
+
+	margin-bottom: 35px;
+	p {
+		text-indent: 30px;
+	}
+
+	h2 {
+		text-align: right;
+	}
+}
+
+.container-menu {
+	@include bp(phone) {
+		margin-top: 70px !important;
+	}
+}
+
+.col-special {
+    padding: 0;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #eaeaea;
+    @include bp(tablet) {
+    	height: 160px;
+    }
+    @include bp(phone) {
+    	padding: 10px;
+    }
+    a {
+    	display: inline-block;
+    	@include transition(font-size, 0.3s);
+    	&:hover {
+    		font-size: 20px;
+    		color: $contrast-color;
+    		font-weight: 700;
+    	}
+    }
+
+    &.initials {
+    	font-size: 64px;
+    	a:hover {
+    		font-size: 70px;
+    	}
+    }
+}
+
+.logo.new {
+	background: #fff;
+	@include bp(phone) {
+		top: 85px;
+	}
+}
+
+.carousel.new {
+	margin-top: 0;
+}
+
+.link-effect {
+	white-space:nowrap;
 }

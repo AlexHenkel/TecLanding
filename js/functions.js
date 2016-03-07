@@ -66,6 +66,19 @@ $(document).ready(function() {
 		preventScroll();
 	});
 
+	// Prevent other menus to show at modal and scroll
+	$("#toggle-nav-label-2").click(function(event) {
+		/* Act on the event */
+		$(this).toggleClass('active');
+		preventScroll();
+	});
+
+	$(".box.c2").click(function(event) {
+		/* Act on the event */
+		$("#toggle-nav-label-2").removeClass('active');
+		preventScroll();
+	});
+
 	// Action when clicked the select box
 	$(".select-0 .cs-placeholder").click(function(event) {
 		/* Act on the event */
