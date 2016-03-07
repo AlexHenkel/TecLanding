@@ -431,7 +431,7 @@
 							</select>
 						</section>
 
-						<a href="http://www.itesm.mx/wps/wcm/connect/itesm/tecnologico+de+monterrey/carreras+profesionales/areas+de+estudio/tecnologias+de+informacion+y+electronica/itc" class="button button--wayra button--border-thick button--text-upper button--size-s button-yellow" target="_blank">Buscar carrera</a>
+						<a href="http://www.itesm.mx/wps/wcm/connect/itesm/tecnologico+de+monterrey/carreras+profesionales/areas+de+estudio/tecnologias+de+informacion+y+electronica/itc" class="button button--wayra button--border-thick button--text-upper button--size-s button-yellow">Buscar carrera</a>
 					</div>
 				</div>
 			</div>
