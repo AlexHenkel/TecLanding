@@ -681,7 +681,7 @@
 		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Arquitectura</a></div></div>
 		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Ciencias Sociales y Humanidades</a></div></div>
 		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Comunicación y Periodismo</a></div></div>
-		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Derecho</div></div>
+		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Derecho</a></div></div>
 		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Diseño y Arte aplicado</a></div></div>
 		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Ingeniería y Ciencias</a></div></div>
 		    			<div class="col-sm-3 col-special"><div class="align-center align-mid"><a href="ti.php">Negocios y Administración</a></div></div>
