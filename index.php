@@ -141,7 +141,7 @@
 		    		<div class="col-md-4">
 		    			<div class="custom-card blue">
 		    				<div class="card-header">Campus</div>
-		    				<div class="card-body">
+		    				<div class="card-body card-pad">
 		    					<section class="select-group">
 									<select class="cs-select cs-skin-overlay select-0">
 										<option value="" disabled selected>Selecciona tu campus</option>
@@ -253,7 +253,7 @@
 		    		<div class="col-md-4">
 		    			<div class="custom-card cyan">
 		    				<div class="card-header">Escuelas</div>
-		    				<div class="card-body">
+		    				<div class="card-body card-pad">
 		    					<section class="select-group">
 									<select class="cs-select cs-skin-overlay select-1">
 										<option value="" disabled selected>Selecciona tu escuela</option>
