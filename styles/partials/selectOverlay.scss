@@ -7,7 +7,7 @@ div.cs-select {
 	background: #fff;
 	z-index: 100;
 	width: 100%;
-	max-width: 500px;
+	// max-width: 500px;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -53,6 +53,7 @@ div.cs-select:focus {
 .cs-select > span::after {
 	content: '\25BE';
 	right: 1em;
+	font-size: 35px;
 }
 
 .cs-select .cs-selected span::after {
@@ -121,10 +122,9 @@ div.cs-skin-overlay {
 	background: transparent;
 	font-size: 1.35em;
 	font-weight: 700;
-	max-width: 400px;
+	// max-width: 400px;
 	z-index: 2000;
-	color: #95948f;
-	box-shadow: 0 10px 0 -5px rgba(0,0,0,0.1);
+	color: #fff;
 }
 
 @media screen and (max-width: 30em) {
@@ -132,7 +132,7 @@ div.cs-skin-overlay {
 }
 
 .cs-skin-overlay > span {
-	background: #fff;
+	// background: #fff;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -150,7 +150,7 @@ div.cs-skin-overlay {
 	left: 0;
 	overflow: hidden;
 	overflow-y: auto;
-	background: rgba(255,255,255,0.96);
+	background: rgba(91, 60, 218, 0.93);
 	opacity: 0;
 	-webkit-transform: perspective(1000px) translate3d(0, 0, -200px);
 	transform: perspective(1000px) translate3d(0, 0, -200px);
@@ -196,7 +196,6 @@ div.cs-skin-overlay {
 }
 
 .cs-skin-overlay .cs-optgroup > span {
-	font-size: 60%;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	padding: 1em 0;
@@ -239,6 +238,10 @@ div.cs-skin-overlay {
 	-webkit-transition-delay: 0s;
 	transition-delay: 0s;
 	font-size: 12px;
+
+	@include bp(desk) {
+		font-size: 15px;
+	}
 }
 
 .cs-skin-overlay li.cs-optgroup ul span {
@@ -250,4 +253,22 @@ div.cs-skin-overlay {
 .cs-skin-overlay li.cs-selected span {
 	color: #f06d54;
 	background: transparent;
+}
+
+.cs-skin-overlay > span {
+	@include bp(desk) {
+		margin-top: 65px;
+	}
+}
+
+.cs-optgroup li {
+	@include bp(phone) {
+		line-height: 12px;
+	}
+}
+
+.cs-skin-overlay .cs-optgroup > span{
+	@include bp(phone) {
+		margin: -12px 0;
+	}
 }

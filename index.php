@@ -142,8 +142,8 @@
 		    			<div class="custom-card blue">
 		    				<div class="card-header">Campus</div>
 		    				<div class="card-body">
-		    					<section>
-									<select class="cs-select cs-skin-overlay">
+		    					<section class="select-group">
+									<select class="cs-select cs-skin-overlay select-0">
 										<option value="" disabled selected>Selecciona tu campus</option>
 										<optgroup label="Rectoría de la Zona Metropolitana de Monterrey">
 											<option value="1">Monterrey</option>
@@ -186,9 +186,9 @@
 											<option value="30">Morelia</option>
 											<option value="31">Puebla</option>
 										</optgroup>
-
 									</select>
 								</section>
+								<button class="button button--wayra button--border-thick button--text-upper button--size-s button-yellow">Ir al sitio</button>
 		    				</div>
 		    			</div>
 		    		</div>
@@ -242,7 +242,7 @@
 											</select>
 											
 											<div class="nl-submit-wrap">
-											<button class="button button--wayra button--border-thick button--text-upper button--size-s" style="color: #000">Busca tu lugar</button>
+												<button class="button button--wayra button--border-thick button--text-upper button--size-s">Busca tu lugar</button>
 											</div>
 											<div class="nl-overlay"></div>
 										</form>
@@ -253,7 +253,20 @@
 		    		<div class="col-md-4">
 		    			<div class="custom-card cyan">
 		    				<div class="card-header">Escuelas</div>
-		    				<div class="card-body"></div>
+		    				<div class="card-body">
+		    					<section class="select-group">
+									<select class="cs-select cs-skin-overlay select-1">
+										<option value="" disabled selected>Selecciona tu escuela</option>
+										<optgroup label="Escuelas">
+											<option value="1">EGADE Business School</option>
+											<option value="2">Escuela de Gobierno y Transformación Pública</option>
+											<option value="3">Escuela de Medicina</option>
+											<option value="4">Escuela de Educación, Humanidades y Ciencias Sociales</option>
+										</optgroup>
+									</select>
+								</section>
+								<button class="button button--wayra button--border-thick button--text-upper button--size-s button-yellow">Ir al sitio</button>
+		    				</div>
 		    			</div>
 		    		</div>
 		    	</div>
