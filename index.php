@@ -10,8 +10,9 @@
 	<meta name="keywords" content="universidad, tec, itesm, university" />
 	<meta name="author" content="Alejandro Henkel" />
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css" />
 	<script src="js/modernizr-custom.js"></script>
 </head>
@@ -89,8 +90,8 @@
 					<img class="logo-img" src="images/logo.png" alt="">
 				</div>
 				<div class="carousel-inner" role="listbox">
-					<div class="item active carousel-img" style="background-image: url('images/rectoria.jpg');">
-						<div id="overlay">
+					<div class="item active carousel-img bg-img bg-cover" style="background-image: url('images/rectoria.jpg');">
+						<div class="overlay">
 							<div class="container">
 								<div class="carousel-caption-new">
 									<h1>El éxito es <span class="title-colored first">todos los días</span></h1>
@@ -98,8 +99,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="item carousel-img" style="background-image: url('images/lab.jpg');">
-						<div id="overlay">
+					<div class="item carousel-img bg-img bg-cover" style="background-image: url('images/lab.jpg');">
+						<div class="overlay">
 							<div class="container">
 								<div class="carousel-caption-new">
 									<h1>Crear para <span class="title-colored second">inspirar</span></h1>
@@ -107,8 +108,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="item carousel-img" style="background-image: url('images/factorTec.png');">
-						<div id="overlay">
+					<div class="item carousel-img bg-img bg-cover" style="background-image: url('images/factorTec.png');">
+						<div class="overlay">
 							<div class="container">
 								<div class="carousel-caption-new">
 									<h1>Ante la duda, <span class="title-colored third">hazlo</span></h1>
@@ -116,8 +117,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="item carousel-img" style="background-image: url('images/sentidoHumano.png');">
-						<div id="overlay">
+					<div class="item carousel-img bg-img bg-cover" style="background-image: url('images/sentidoHumano.png');">
+						<div class="overlay">
 							<div class="container">
 								<div class="carousel-caption-new">
 									<h1>Ante la duda, <span class="title-colored fourth">hazlo</span></h1>
@@ -137,70 +138,73 @@
 		    </div>
 		    <div class="container-fluid container-custom">
 		    	<div class="row">
-		    		<div class="col-md-3">
-		    			<div class="custom-card">
+		    		<div class="col-md-4">
+		    			<div class="custom-card blue">
 		    				<div class="card-header">Campus</div>
 		    				<div class="card-body"></div>
 		    			</div>
 		    		</div>
-		    		<div class="col-md-6">
-		    			<div class="custom-card">
+		    		<div class="col-md-4">
+		    			<div class="custom-card light-blue">
 		    				<div class="card-header">Admisiones</div>
-				    			<div class="card-body">
-				    				<form id="nl-form" class="nl-form">
-										Estoy interesad@ en estudiar la
-										<select>
-											<option value="1">Preparatoria</option>
-											<option value="2" selected>Carrera Profesional</option>
-											<option value="3">Maestría o Doctorado</option>
-										</select>
-										<br />en Campus
-										<select>
-											<option value="1">Aguascalientes</option>
-											<option value="2">Central de Veracruz</option>
-											<option value="3">Chiapas</option>
-											<option value="4">Chihuahua</option>
-											<option value="5">Ciudad de México</option>
-											<option value="6">Ciudad Juárez</option>
-											<option value="7">Ciudad Obregón</option>
-											<option value="8">Navojoa</option>
-											<option value="9">Cuernavaca</option>
-											<option value="10">Estado de México</option>
-											<option value="11">Esmeralda (Preparatoria)</option>
-											<option value="12">Guadalajara</option>
-											<option value="13">Hidalgo</option>
-											<option value="14">Irapuato</option>
-											<option value="15">Laguna</option>
-											<option value="16">León</option>
-											<option value="17" selected>Monterrey</option>
-											<option value="18">Cumbres (Preparatoria)</option>
-											<option value="19">Eugenio Garza Lagüera (Preparatoria)</option>
-											<option value="20">Eugenio Garza Sada (Preparatoria)</option>
-											<option value="21">Santa Catarina (Preparatoria)</option>
-											<option value="22">Valle Alto (Preparatoria)</option>
-											<option value="23">Morelia</option>
-											<option value="24">Puebla</option>
-											<option value="25">Querétaro</option>
-											<option value="26">Saltillo</option>
-											<option value="27">San Luis Potosí</option>
-											<option value="28">Santa Fe</option>
-											<option value="29">Sinaloa</option>
-											<option value="30">Sonora Norte</option>
-											<option value="31">Matamoros (Preparatoria)</option>
-											<option value="32">Toluca</option>
-											<option value="33">Zacatecas</option>
-										</select>
-										
-										<div class="nl-submit-wrap">
-											<button class="nl-submit" type="submit">Find a restaurant</button>
-										</div>
-										<div class="nl-overlay"></div>
-									</form>
+				    			<div class="card-body bg-img bg-scroll" style="background-image: url('images/admisiones.jpg'); background-position: 50% 50%;">
+				    				<div class="overlay" style="">
+				    					<form id="nl-form" class="nl-form">
+											Estoy interesad@ en estudiar la
+											<select>
+												<option value="1">Preparatoria</option>
+												<option value="2" selected>Carrera Profesional</option>
+												<option value="3">Maestría o Doctorado</option>
+											</select>
+											<br />en Campus
+											<select>
+												<option value="1">Aguascalientes</option>
+												<option value="2">Central de Veracruz</option>
+												<option value="3">Chiapas</option>
+												<option value="4">Chihuahua</option>
+												<option value="5">Ciudad de México</option>
+												<option value="6">Ciudad Juárez</option>
+												<option value="7">Ciudad Obregón</option>
+												<option value="8">Navojoa</option>
+												<option value="9">Cuernavaca</option>
+												<option value="10">Estado de México</option>
+												<option value="11">Esmeralda (Preparatoria)</option>
+												<option value="12">Guadalajara</option>
+												<option value="13">Hidalgo</option>
+												<option value="14">Irapuato</option>
+												<option value="15">Laguna</option>
+												<option value="16">León</option>
+												<option value="17" selected>Monterrey</option>
+												<option value="18">Cumbres (Preparatoria)</option>
+												<option value="19">Eugenio Garza Lagüera (Preparatoria)</option>
+												<option value="20">Eugenio Garza Sada (Preparatoria)</option>
+												<option value="21">Santa Catarina (Preparatoria)</option>
+												<option value="22">Valle Alto (Preparatoria)</option>
+												<option value="23">Morelia</option>
+												<option value="24">Puebla</option>
+												<option value="25">Querétaro</option>
+												<option value="26">Saltillo</option>
+												<option value="27">San Luis Potosí</option>
+												<option value="28">Santa Fe</option>
+												<option value="29">Sinaloa</option>
+												<option value="30">Sonora Norte</option>
+												<option value="31">Matamoros (Preparatoria)</option>
+												<option value="32">Toluca</option>
+												<option value="33">Zacatecas</option>
+											</select>
+											
+											<div class="nl-submit-wrap">
+<!-- 												<button class="nl-submit" type="submit">Busca tu lugar</button>
+ -->												<button class="button button--wayra button--border-thick 														button--text-upper button--size-s">Busca tu lugar</button>
+											</div>
+											<div class="nl-overlay"></div>
+										</form>
+				    				</div>
 				    			</div>
 		    			</div>
 		    		</div>
-		    		<div class="col-md-3">
-		    			<div class="custom-card">
+		    		<div class="col-md-4">
+		    			<div class="custom-card cyan">
 		    				<div class="card-header">Escuelas</div>
 		    				<div class="card-body"></div>
 		    			</div>

@@ -72,11 +72,64 @@ a:hover {
 	padding-top: 35px;
 }
 
+.bg-img {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #464646;
+  box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);
+
+  @include bp (phone) {
+      background-position: 30% 20%;
+  }
+}
+
+.bg-cover {
+	background-size: cover;
+}
+
+.bg-scroll {
+	background-attachment: scroll;
+}
+
 .custom-card {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+
+	&.blue {
+		background-color: $blue;
+	}
+
+	&.cyan {
+		background-color: $cyan;
+	}
+
+	&.light-blue {
+		background-color: $light-blue;
+
+		.overlay {
+			background-color: rgba(3, 169, 244, 0.8);
+		}
+	}
+
 	.card-header {
 		text-transform: uppercase;
 		text-align: center;
 		font-weight: 700;
-		font-size: 24px;
+		font-size: 22px;
+		padding: 15px 0;
+		color: #ffffff;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.card-body {
+		// border: 1px solid #666;
+		font-family: $display-font;
+		color: #fff;
+		font-size: 14px;
+		// min-height: 190px;
+		.overlay {
+			height: auto;
+			padding: 23px 26px;
+		}
 	}
 }

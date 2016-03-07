@@ -1,23 +1,23 @@
 /*
-Error: Undefined mixin 'bp'.
-        on line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `bp'
-        from line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss
+Error: Undefined mixin 'triangle'.
+        on line 38 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `triangle'
+        from line 38 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss
 
-29:   background-attachment: fixed;
-30:   background-size: cover;
-31:   background-color: #464646;
-32:   box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);
-33: 
-34:   @include bp (phone) {
-35:       background-position: 30% 20%;
-36:   }
-37: }
-38: 
-39: #overlay {
+33:   background: rgba(72, 75, 240, 0.7);
+34:   height: 500px;
+35: }
+36: 
+37: .triangle-1, .triangle-3 {
+38:   @include triangle(up, #fff, 35px);
+39:   position: relative;
+40: }
+41: 
+42: .triangle-2, .triangle-4 {
+43:   @include triangle(up, rgba(25, 27, 173, 0.9), 20px);
 
 Backtrace:
-/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:34:in `bp'
-/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:34
+/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:38:in `triangle'
+/Users/alex/Documents/TecLanding/styles/partials/carousel.scss:38
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/alex/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'bp'.\A         on line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `bp'\A         from line 34 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss\A \A 29:   background-attachment: fixed;\A 30:   background-size: cover;\A 31:   background-color: #464646;\A 32:   box-shadow: inset 1px 1px 40px 0 rgba(0,0,0,.45);\A 33: \A 34:   @include bp (phone) {\A 35:       background-position: 30% 20%;\A 36:   }\A 37: }\A 38: \A 39: #overlay {"; }
+  content: "Error: Undefined mixin 'triangle'.\A         on line 38 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss, in `triangle'\A         from line 38 of /Users/alex/Documents/TecLanding/styles/partials/carousel.scss\A \A 33:   background: rgba(72, 75, 240, 0.7);\A 34:   height: 500px;\A 35: }\A 36: \A 37: .triangle-1, .triangle-3 {\A 38:   @include triangle(up, #fff, 35px);\A 39:   position: relative;\A 40: }\A 41: \A 42: .triangle-2, .triangle-4 {\A 43:   @include triangle(up, rgba(25, 27, 173, 0.9), 20px);"; }
