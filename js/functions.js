@@ -1,6 +1,9 @@
 new UISearch( document.getElementById( 'sb-search' ) );
 new UISearch( document.getElementById( 'sb-search-phone' ) );
 
+new UISearch( document.getElementById( 'sb-search-1' ) );
+new UISearch( document.getElementById( 'sb-search-phone-1' ) );
+
 var nlform = new NLForm( document.getElementById( 'nl-form' ) );
 
 (function() {
@@ -47,6 +50,20 @@ $(document).ready(function() {
 		$("#toggle-nav-label").removeClass('active');
 		preventScroll();
 		$(".select-0 .cs-placeholder").show();
+	});
+
+
+	// Prevent other menus to show at modal and scroll
+	$("#toggle-nav-label-1").click(function(event) {
+		/* Act on the event */
+		$(this).toggleClass('active');
+		preventScroll();
+	});
+
+	$(".box.c1").click(function(event) {
+		/* Act on the event */
+		$("#toggle-nav-label-1").removeClass('active');
+		preventScroll();
 	});
 
 	// Action when clicked the select box

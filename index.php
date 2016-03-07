@@ -439,7 +439,50 @@
 		</div>
 		<!-- /page -->
 		<div class="page" id="page-about">
-			
+			<header class="header-main">
+				<section class="section section--menu hidden-xs" id="Ariel">
+					<span class="link-copy"></span>
+					<nav class="menu menu--ariel">
+						<ul class="menu__list">
+							<li class="menu__item menu__item--current"><a href="https://mitec.itesm.mx/portal/page/portal/Alumnos/Publica?p_iPortal=1" class="menu__link" target="_blank">Alumnos</a></li>
+							<li class="menu__item"><a href="https://padres.itesm.mx/portal/page/portal/Padres/Publica?p_iPortal=2" class="menu__link" target="_blank">Padres</a></li>
+							<li class="menu__item"><a href="https://egresados.itesm.mx/portal/page/portal/DRE_2015/Portada" class="menu__link" target="_blank">Egresados</a></li>
+							<li class="menu__item"><a href="http://miespacio.itesm.mx/" class="menu__link" target="_blank">Profesores</a></li>
+							<li class="menu__item">
+								<div id="sb-search-1" class="sb-search">
+									<form>
+										<input class="sb-search-input" placeholder="Escribe tu búsqueda..." type="text" value="" name="search" id="search">
+										<input class="sb-search-submit" type="submit" value="">
+										<span class="sb-icon-search"></span>
+									</form>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</section>
+				<section class="menu-phone visible-xs-block">
+					<div id="sb-search-phone-1" class="sb-search">
+						<form>
+							<input class="sb-search-input" placeholder="Escribe tu búsqueda..." type="text" value="" name="search" id="search">
+							<input class="sb-search-submit" type="submit" value="">
+							<span class="sb-icon-search"></span>
+						</form>
+					</div>
+					<nav id="menu">
+				    		
+			    		<span id="toggle-nav-label-1">Comunidad Tec</span>
+			    		
+			    		<div class="box c1">
+				    		<ul>
+				    			<li><a href="https://mitec.itesm.mx/portal/page/portal/Alumnos/Publica?p_iPortal=1" target="_blank">Alumnos</a></li>
+				    			<li><a href="https://padres.itesm.mx/portal/page/portal/Padres/Publica?p_iPortal=2" target="_blank">Padres</a></li>
+				    			<li><a href="https://egresados.itesm.mx/portal/page/portal/DRE_2015/Portada" target="_blank">Egresados</a></li>
+				    			<li><a href="http://miespacio.itesm.mx/" target="_blank">Profesores</a></li>
+				    		</ul>
+			    		</div>
+			    	</nav>
+				</section>
+			</header>
 		</div>
 		<div class="page" id="page-offer">
 		</div>
