@@ -83,12 +83,12 @@ html.js,
 
 .link:hover,
 .link:focus {
-	color: $contrast-color;
+	color: $main-color-2;
 }
 
 .link--page {
 	display: block;
-	color: $main-color-2;
+	color: $main-color-1;
 }
 
 .link--page:not(.link--faded)::before {
@@ -99,7 +99,7 @@ html.js,
 	width: 30px;
 	height: 2px;
 	margin: 5px 0 0 -15px;
-	background: $contrast-color;
+	background: $main-color-2;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
 	-webkit-transform: scale3d(0, 1, 1);
